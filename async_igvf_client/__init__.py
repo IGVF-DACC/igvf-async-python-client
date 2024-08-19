@@ -14,7 +14,7 @@
 """  # noqa: E501
 
 
-__version__ = "1.0.0"
+__version__ = "0.1.0"
 
 # import apis into sdk package
 from async_igvf_client.api.async_igvf_api import AsyncIgvfApi
