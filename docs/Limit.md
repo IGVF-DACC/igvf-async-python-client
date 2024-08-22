@@ -9,7 +9,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```python
-from async_igvf_client.models.limit import Limit
+from igvf_async_client.models.limit import Limit
 
 # TODO update the JSON string below
 json = "{}"

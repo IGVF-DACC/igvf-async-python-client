@@ -11,7 +11,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```python
-from async_igvf_client.models.no_results_response_facets_inner_terms_inner import NoResultsResponseFacetsInnerTermsInner
+from igvf_async_client.models.no_results_response_facets_inner_terms_inner import NoResultsResponseFacetsInnerTermsInner
 
 # TODO update the JSON string below
 json = "{}"

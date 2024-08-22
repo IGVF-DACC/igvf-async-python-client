@@ -10,7 +10,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```python
-from async_igvf_client.models.no_results_response_columns_value import NoResultsResponseColumnsValue
+from igvf_async_client.models.no_results_response_columns_value import NoResultsResponseColumnsValue
 
 # TODO update the JSON string below
 json = "{}"

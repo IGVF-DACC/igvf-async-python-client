@@ -9,7 +9,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```python
-from async_igvf_client.models.model_set import ModelSet
+from igvf_async_client.models.model_set import ModelSet
 
 # TODO update the JSON string below
 json = "{}"

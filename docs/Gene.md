@@ -34,7 +34,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```python
-from async_igvf_client.models.gene import Gene
+from igvf_async_client.models.gene import Gene
 
 # TODO update the JSON string below
 json = "{}"

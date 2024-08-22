@@ -32,7 +32,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```python
-from async_igvf_client.models.award import Award
+from igvf_async_client.models.award import Award
 
 # TODO update the JSON string below
 json = "{}"

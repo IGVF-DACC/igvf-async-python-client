@@ -53,7 +53,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```python
-from async_igvf_client.models.genome_browser_annotation_file import GenomeBrowserAnnotationFile
+from igvf_async_client.models.genome_browser_annotation_file import GenomeBrowserAnnotationFile
 
 # TODO update the JSON string below
 json = "{}"

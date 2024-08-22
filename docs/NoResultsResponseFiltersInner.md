@@ -12,7 +12,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```python
-from async_igvf_client.models.no_results_response_filters_inner import NoResultsResponseFiltersInner
+from igvf_async_client.models.no_results_response_filters_inner import NoResultsResponseFiltersInner
 
 # TODO update the JSON string below
 json = "{}"

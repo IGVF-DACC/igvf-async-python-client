@@ -11,7 +11,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```python
-from async_igvf_client.models.no_results_response_sort_value import NoResultsResponseSortValue
+from igvf_async_client.models.no_results_response_sort_value import NoResultsResponseSortValue
 
 # TODO update the JSON string below
 json = "{}"

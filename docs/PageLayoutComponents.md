@@ -13,7 +13,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```python
-from async_igvf_client.models.page_layout_components import PageLayoutComponents
+from igvf_async_client.models.page_layout_components import PageLayoutComponents
 
 # TODO update the JSON string below
 json = "{}"

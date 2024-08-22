@@ -84,7 +84,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```python
-from async_igvf_client.models.in_vitro_system import InVitroSystem
+from igvf_async_client.models.in_vitro_system import InVitroSystem
 
 # TODO update the JSON string below
 json = "{}"

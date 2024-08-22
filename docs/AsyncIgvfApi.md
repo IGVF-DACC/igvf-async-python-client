@@ -1,4 +1,4 @@
-# async_igvf_client.AsyncIgvfApi
+# igvf_async_client.AsyncIgvfApi
 
 All URIs are relative to *https://api.data.igvf.org*
 
@@ -74,7 +74,7 @@ Collection endpoint that accepts various query parameters to filter, sort, and p
 ### Example
 
 ```python
-from async_igvf_client import AsyncIgvfApi
+from igvf_async_client import AsyncIgvfApi
 
 api = AsyncIgvfApi()
 
@@ -140,7 +140,7 @@ Collection endpoint that accepts various query parameters to filter, sort, and p
 ### Example
 
 ```python
-from async_igvf_client import AsyncIgvfApi
+from igvf_async_client import AsyncIgvfApi
 
 api = AsyncIgvfApi()
 
@@ -240,7 +240,7 @@ Collection endpoint that accepts various query parameters to filter, sort, and p
 ### Example
 
 ```python
-from async_igvf_client import AsyncIgvfApi
+from igvf_async_client import AsyncIgvfApi
 
 api = AsyncIgvfApi()
 
@@ -369,7 +369,7 @@ Collection endpoint that accepts various query parameters to filter, sort, and p
 ### Example
 
 ```python
-from async_igvf_client import AsyncIgvfApi
+from igvf_async_client import AsyncIgvfApi
 
 api = AsyncIgvfApi()
 
@@ -441,7 +441,7 @@ Collection endpoint that accepts various query parameters to filter, sort, and p
 ### Example
 
 ```python
-from async_igvf_client import AsyncIgvfApi
+from igvf_async_client import AsyncIgvfApi
 
 api = AsyncIgvfApi()
 
@@ -519,7 +519,7 @@ Collection endpoint that accepts various query parameters to filter, sort, and p
 ### Example
 
 ```python
-from async_igvf_client import AsyncIgvfApi
+from igvf_async_client import AsyncIgvfApi
 
 api = AsyncIgvfApi()
 
@@ -595,7 +595,7 @@ Collection endpoint that accepts various query parameters to filter, sort, and p
 ### Example
 
 ```python
-from async_igvf_client import AsyncIgvfApi
+from igvf_async_client import AsyncIgvfApi
 
 api = AsyncIgvfApi()
 
@@ -723,7 +723,7 @@ Collection endpoint that accepts various query parameters to filter, sort, and p
 ### Example
 
 ```python
-from async_igvf_client import AsyncIgvfApi
+from igvf_async_client import AsyncIgvfApi
 
 api = AsyncIgvfApi()
 
@@ -796,7 +796,7 @@ Generates TSV of files contained in FileSets in search results.
 ### Example
 
 ```python
-from async_igvf_client import AsyncIgvfApi
+from igvf_async_client import AsyncIgvfApi
 
 api = AsyncIgvfApi()
 
@@ -848,7 +848,7 @@ Collection endpoint that accepts various query parameters to filter, sort, and p
 ### Example
 
 ```python
-from async_igvf_client import AsyncIgvfApi
+from igvf_async_client import AsyncIgvfApi
 
 api = AsyncIgvfApi()
 
@@ -924,7 +924,7 @@ Collection endpoint that accepts various query parameters to filter, sort, and p
 ### Example
 
 ```python
-from async_igvf_client import AsyncIgvfApi
+from igvf_async_client import AsyncIgvfApi
 
 api = AsyncIgvfApi()
 
@@ -1017,7 +1017,7 @@ Collection endpoint that accepts various query parameters to filter, sort, and p
 ### Example
 
 ```python
-from async_igvf_client import AsyncIgvfApi
+from igvf_async_client import AsyncIgvfApi
 
 api = AsyncIgvfApi()
 
@@ -1160,7 +1160,7 @@ Collection endpoint that accepts various query parameters to filter, sort, and p
 ### Example
 
 ```python
-from async_igvf_client import AsyncIgvfApi
+from igvf_async_client import AsyncIgvfApi
 
 api = AsyncIgvfApi()
 
@@ -1241,7 +1241,7 @@ Collection endpoint that accepts various query parameters to filter, sort, and p
 ### Example
 
 ```python
-from async_igvf_client import AsyncIgvfApi
+from igvf_async_client import AsyncIgvfApi
 
 api = AsyncIgvfApi()
 
@@ -1368,7 +1368,7 @@ Collection endpoint that accepts various query parameters to filter, sort, and p
 ### Example
 
 ```python
-from async_igvf_client import AsyncIgvfApi
+from igvf_async_client import AsyncIgvfApi
 
 api = AsyncIgvfApi()
 
@@ -1447,7 +1447,7 @@ Collection endpoint that accepts various query parameters to filter, sort, and p
 ### Example
 
 ```python
-from async_igvf_client import AsyncIgvfApi
+from igvf_async_client import AsyncIgvfApi
 
 api = AsyncIgvfApi()
 
@@ -1518,7 +1518,7 @@ Returns underlying file associated with file metadata
 ### Example
 
 ```python
-from async_igvf_client import AsyncIgvfApi
+from igvf_async_client import AsyncIgvfApi
 
 api = AsyncIgvfApi()
 
@@ -1567,7 +1567,7 @@ Collection endpoint that accepts various query parameters to filter, sort, and p
 ### Example
 
 ```python
-from async_igvf_client import AsyncIgvfApi
+from igvf_async_client import AsyncIgvfApi
 
 api = AsyncIgvfApi()
 
@@ -1642,7 +1642,7 @@ Collection endpoint that accepts various query parameters to filter, sort, and p
 ### Example
 
 ```python
-from async_igvf_client import AsyncIgvfApi
+from igvf_async_client import AsyncIgvfApi
 
 api = AsyncIgvfApi()
 
@@ -1737,7 +1737,7 @@ Retrieve detailed information about a specific item using its @id or uuid.
 ### Example
 
 ```python
-from async_igvf_client import AsyncIgvfApi
+from igvf_async_client import AsyncIgvfApi
 
 api = AsyncIgvfApi()
 
@@ -1785,7 +1785,7 @@ Collection endpoint that accepts various query parameters to filter, sort, and p
 ### Example
 
 ```python
-from async_igvf_client import AsyncIgvfApi
+from igvf_async_client import AsyncIgvfApi
 
 api = AsyncIgvfApi()
 
@@ -1875,7 +1875,7 @@ Collection endpoint that accepts various query parameters to filter, sort, and p
 ### Example
 
 ```python
-from async_igvf_client import AsyncIgvfApi
+from igvf_async_client import AsyncIgvfApi
 
 api = AsyncIgvfApi()
 
@@ -1967,7 +1967,7 @@ Collection endpoint that accepts various query parameters to filter, sort, and p
 ### Example
 
 ```python
-from async_igvf_client import AsyncIgvfApi
+from igvf_async_client import AsyncIgvfApi
 
 api = AsyncIgvfApi()
 
@@ -2034,7 +2034,7 @@ Collection endpoint that accepts various query parameters to filter, sort, and p
 ### Example
 
 ```python
-from async_igvf_client import AsyncIgvfApi
+from igvf_async_client import AsyncIgvfApi
 
 api = AsyncIgvfApi()
 
@@ -2184,7 +2184,7 @@ Collection endpoint that accepts various query parameters to filter, sort, and p
 ### Example
 
 ```python
-from async_igvf_client import AsyncIgvfApi
+from igvf_async_client import AsyncIgvfApi
 
 api = AsyncIgvfApi()
 
@@ -2258,7 +2258,7 @@ Collection endpoint that accepts various query parameters to filter, sort, and p
 ### Example
 
 ```python
-from async_igvf_client import AsyncIgvfApi
+from igvf_async_client import AsyncIgvfApi
 
 api = AsyncIgvfApi()
 
@@ -2329,7 +2329,7 @@ Collection endpoint that accepts various query parameters to filter, sort, and p
 ### Example
 
 ```python
-from async_igvf_client import AsyncIgvfApi
+from igvf_async_client import AsyncIgvfApi
 
 api = AsyncIgvfApi()
 
@@ -2425,7 +2425,7 @@ Collection endpoint that accepts various query parameters to filter, sort, and p
 ### Example
 
 ```python
-from async_igvf_client import AsyncIgvfApi
+from igvf_async_client import AsyncIgvfApi
 
 api = AsyncIgvfApi()
 
@@ -2584,7 +2584,7 @@ Collection endpoint that accepts various query parameters to filter, sort, and p
 ### Example
 
 ```python
-from async_igvf_client import AsyncIgvfApi
+from igvf_async_client import AsyncIgvfApi
 
 api = AsyncIgvfApi()
 
@@ -2678,7 +2678,7 @@ Collection endpoint that accepts various query parameters to filter, sort, and p
 ### Example
 
 ```python
-from async_igvf_client import AsyncIgvfApi
+from igvf_async_client import AsyncIgvfApi
 
 api = AsyncIgvfApi()
 
@@ -2811,7 +2811,7 @@ Collection endpoint that accepts various query parameters to filter, sort, and p
 ### Example
 
 ```python
-from async_igvf_client import AsyncIgvfApi
+from igvf_async_client import AsyncIgvfApi
 
 api = AsyncIgvfApi()
 
@@ -2943,7 +2943,7 @@ Collection endpoint that accepts various query parameters to filter, sort, and p
 ### Example
 
 ```python
-from async_igvf_client import AsyncIgvfApi
+from igvf_async_client import AsyncIgvfApi
 
 api = AsyncIgvfApi()
 
@@ -3017,7 +3017,7 @@ Collection endpoint that accepts various query parameters to filter, sort, and p
 ### Example
 
 ```python
-from async_igvf_client import AsyncIgvfApi
+from igvf_async_client import AsyncIgvfApi
 
 api = AsyncIgvfApi()
 
@@ -3087,7 +3087,7 @@ Collection endpoint that accepts various query parameters to filter, sort, and p
 ### Example
 
 ```python
-from async_igvf_client import AsyncIgvfApi
+from igvf_async_client import AsyncIgvfApi
 
 api = AsyncIgvfApi()
 
@@ -3159,7 +3159,7 @@ Collection endpoint that accepts various query parameters to filter, sort, and p
 ### Example
 
 ```python
-from async_igvf_client import AsyncIgvfApi
+from igvf_async_client import AsyncIgvfApi
 
 api = AsyncIgvfApi()
 
@@ -3233,7 +3233,7 @@ Collection endpoint that accepts various query parameters to filter, sort, and p
 ### Example
 
 ```python
-from async_igvf_client import AsyncIgvfApi
+from igvf_async_client import AsyncIgvfApi
 
 api = AsyncIgvfApi()
 
@@ -3307,7 +3307,7 @@ Collection endpoint that accepts various query parameters to filter, sort, and p
 ### Example
 
 ```python
-from async_igvf_client import AsyncIgvfApi
+from igvf_async_client import AsyncIgvfApi
 
 api = AsyncIgvfApi()
 
@@ -3448,7 +3448,7 @@ Collection endpoint that accepts various query parameters to filter, sort, and p
 ### Example
 
 ```python
-from async_igvf_client import AsyncIgvfApi
+from igvf_async_client import AsyncIgvfApi
 
 api = AsyncIgvfApi()
 
@@ -3585,7 +3585,7 @@ Collection endpoint that accepts various query parameters to filter, sort, and p
 ### Example
 
 ```python
-from async_igvf_client import AsyncIgvfApi
+from igvf_async_client import AsyncIgvfApi
 
 api = AsyncIgvfApi()
 
@@ -3671,7 +3671,7 @@ Collection endpoint that accepts various query parameters to filter, sort, and p
 ### Example
 
 ```python
-from async_igvf_client import AsyncIgvfApi
+from igvf_async_client import AsyncIgvfApi
 
 api = AsyncIgvfApi()
 
@@ -3772,7 +3772,7 @@ Like /search endpoint but returns a TSV file instead of JSON. Must specify item 
 ### Example
 
 ```python
-from async_igvf_client import AsyncIgvfApi
+from igvf_async_client import AsyncIgvfApi
 
 api = AsyncIgvfApi()
 
@@ -3828,7 +3828,7 @@ Collection endpoint that accepts various query parameters to filter, sort, and p
 ### Example
 
 ```python
-from async_igvf_client import AsyncIgvfApi
+from igvf_async_client import AsyncIgvfApi
 
 api = AsyncIgvfApi()
 
@@ -3922,7 +3922,7 @@ Collection endpoint that accepts various query parameters to filter, sort, and p
 ### Example
 
 ```python
-from async_igvf_client import AsyncIgvfApi
+from igvf_async_client import AsyncIgvfApi
 
 api = AsyncIgvfApi()
 
@@ -3999,7 +3999,7 @@ Returns JSON schemas of all the item types defined in IGVF
 ### Example
 
 ```python
-from async_igvf_client import AsyncIgvfApi
+from igvf_async_client import AsyncIgvfApi
 
 api = AsyncIgvfApi()
 
@@ -4046,7 +4046,7 @@ Returns JSON schemas of all the item types defined in IGVF
 ### Example
 
 ```python
-from async_igvf_client import AsyncIgvfApi
+from igvf_async_client import AsyncIgvfApi
 
 api = AsyncIgvfApi()
 
@@ -4090,7 +4090,7 @@ Search endpoint that accepts various query parameters to filter, sort, and pagin
 ### Example
 
 ```python
-from async_igvf_client import AsyncIgvfApi
+from igvf_async_client import AsyncIgvfApi
 
 api = AsyncIgvfApi()
 
@@ -4142,7 +4142,7 @@ Collection endpoint that accepts various query parameters to filter, sort, and p
 ### Example
 
 ```python
-from async_igvf_client import AsyncIgvfApi
+from igvf_async_client import AsyncIgvfApi
 
 api = AsyncIgvfApi()
 
@@ -4249,7 +4249,7 @@ Collection endpoint that accepts various query parameters to filter, sort, and p
 ### Example
 
 ```python
-from async_igvf_client import AsyncIgvfApi
+from igvf_async_client import AsyncIgvfApi
 
 api = AsyncIgvfApi()
 
@@ -4349,7 +4349,7 @@ Collection endpoint that accepts various query parameters to filter, sort, and p
 ### Example
 
 ```python
-from async_igvf_client import AsyncIgvfApi
+from igvf_async_client import AsyncIgvfApi
 
 api = AsyncIgvfApi()
 
@@ -4424,7 +4424,7 @@ Collection endpoint that accepts various query parameters to filter, sort, and p
 ### Example
 
 ```python
-from async_igvf_client import AsyncIgvfApi
+from igvf_async_client import AsyncIgvfApi
 
 api = AsyncIgvfApi()
 
@@ -4500,7 +4500,7 @@ Collection endpoint that accepts various query parameters to filter, sort, and p
 ### Example
 
 ```python
-from async_igvf_client import AsyncIgvfApi
+from igvf_async_client import AsyncIgvfApi
 
 api = AsyncIgvfApi()
 
@@ -4567,7 +4567,7 @@ Collection endpoint that accepts various query parameters to filter, sort, and p
 ### Example
 
 ```python
-from async_igvf_client import AsyncIgvfApi
+from igvf_async_client import AsyncIgvfApi
 
 api = AsyncIgvfApi()
 
@@ -4664,7 +4664,7 @@ Collection endpoint that accepts various query parameters to filter, sort, and p
 ### Example
 
 ```python
-from async_igvf_client import AsyncIgvfApi
+from igvf_async_client import AsyncIgvfApi
 
 api = AsyncIgvfApi()
 
@@ -4774,7 +4774,7 @@ Collection endpoint that accepts various query parameters to filter, sort, and p
 ### Example
 
 ```python
-from async_igvf_client import AsyncIgvfApi
+from igvf_async_client import AsyncIgvfApi
 
 api = AsyncIgvfApi()
 
@@ -4914,7 +4914,7 @@ Collection endpoint that accepts various query parameters to filter, sort, and p
 ### Example
 
 ```python
-from async_igvf_client import AsyncIgvfApi
+from igvf_async_client import AsyncIgvfApi
 
 api = AsyncIgvfApi()
 
@@ -5001,7 +5001,7 @@ Collection endpoint that accepts various query parameters to filter, sort, and p
 ### Example
 
 ```python
-from async_igvf_client import AsyncIgvfApi
+from igvf_async_client import AsyncIgvfApi
 
 api = AsyncIgvfApi()
 
@@ -5073,7 +5073,7 @@ Collection endpoint that accepts various query parameters to filter, sort, and p
 ### Example
 
 ```python
-from async_igvf_client import AsyncIgvfApi
+from igvf_async_client import AsyncIgvfApi
 
 api = AsyncIgvfApi()
 
@@ -5209,7 +5209,7 @@ Collection endpoint that accepts various query parameters to filter, sort, and p
 ### Example
 
 ```python
-from async_igvf_client import AsyncIgvfApi
+from igvf_async_client import AsyncIgvfApi
 
 api = AsyncIgvfApi()
 

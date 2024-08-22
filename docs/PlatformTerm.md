@@ -33,7 +33,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```python
-from async_igvf_client.models.platform_term import PlatformTerm
+from igvf_async_client.models.platform_term import PlatformTerm
 
 # TODO update the JSON string below
 json = "{}"

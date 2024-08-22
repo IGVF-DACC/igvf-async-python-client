@@ -12,7 +12,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```python
-from async_igvf_client.models.related_donor import RelatedDonor
+from igvf_async_client.models.related_donor import RelatedDonor
 
 # TODO update the JSON string below
 json = "{}"

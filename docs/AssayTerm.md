@@ -35,7 +35,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```python
-from async_igvf_client.models.assay_term import AssayTerm
+from igvf_async_client.models.assay_term import AssayTerm
 
 # TODO update the JSON string below
 json = "{}"

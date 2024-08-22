@@ -14,7 +14,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```python
-from async_igvf_client.models.phenotypic_feature_results import PhenotypicFeatureResults
+from igvf_async_client.models.phenotypic_feature_results import PhenotypicFeatureResults
 
 # TODO update the JSON string below
 json = "{}"

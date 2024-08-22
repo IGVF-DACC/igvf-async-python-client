@@ -13,7 +13,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```python
-from async_igvf_client.models.locus import Locus
+from igvf_async_client.models.locus import Locus
 
 # TODO update the JSON string below
 json = "{}"

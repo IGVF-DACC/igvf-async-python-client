@@ -12,7 +12,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```python
-from async_igvf_client.models.search_facet import SearchFacet
+from igvf_async_client.models.search_facet import SearchFacet
 
 # TODO update the JSON string below
 json = "{}"

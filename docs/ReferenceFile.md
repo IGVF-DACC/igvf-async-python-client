@@ -59,7 +59,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```python
-from async_igvf_client.models.reference_file import ReferenceFile
+from igvf_async_client.models.reference_file import ReferenceFile
 
 # TODO update the JSON string below
 json = "{}"

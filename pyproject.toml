@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "async_igvf_client"
+name = "igvf_async_client"
 version = "46.1.0"
 description = "IGVF Project API"
 authors = ["OpenAPI Generator Community <team@openapitools.org>"]
@@ -7,7 +7,7 @@ license = "NoLicense"
 readme = "README.md"
 repository = "https://github.com/IGVF-DACC/igvf-async-python-client"
 keywords = ["OpenAPI", "OpenAPI-Generator", "IGVF Project API"]
-include = ["async_igvf_client/py.typed"]
+include = ["igvf_async_client/py.typed"]
 
 [tool.poetry.dependencies]
 python = "^3.7"
@@ -36,7 +36,7 @@ extension-pkg-whitelist = "pydantic"
 
 [tool.mypy]
 files = [
-  "async_igvf_client",
+  "igvf_async_client",
   #"test",  # auto-generated tests
   "tests", # hand-written tests
 ]

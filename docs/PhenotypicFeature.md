@@ -29,7 +29,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```python
-from async_igvf_client.models.phenotypic_feature import PhenotypicFeature
+from igvf_async_client.models.phenotypic_feature import PhenotypicFeature
 
 # TODO update the JSON string below
 json = "{}"

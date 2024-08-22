@@ -14,7 +14,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```python
-from async_igvf_client.models.reference_file_results import ReferenceFileResults
+from igvf_async_client.models.reference_file_results import ReferenceFileResults
 
 # TODO update the JSON string below
 json = "{}"

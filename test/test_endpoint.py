@@ -3,7 +3,7 @@ import pytest
 
 @pytest.mark.asyncio
 async def test_endpoint_test_async_igvf_api():
-    from async_igvf_client import AsyncIgvfApi
+    from igvf_async_client import AsyncIgvfApi
     api = AsyncIgvfApi()
     result = await api.search(query='ABC')
     assert result.total > 2

@@ -58,7 +58,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```python
-from async_igvf_client.models.signal_file import SignalFile
+from igvf_async_client.models.signal_file import SignalFile
 
 # TODO update the JSON string below
 json = "{}"

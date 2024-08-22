@@ -14,7 +14,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```python
-from async_igvf_client.models.construct_library_set_results import ConstructLibrarySetResults
+from igvf_async_client.models.construct_library_set_results import ConstructLibrarySetResults
 
 # TODO update the JSON string below
 json = "{}"
