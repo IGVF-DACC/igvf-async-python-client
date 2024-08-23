@@ -67,65 +67,9 @@ print(lab)
 print(lab.title)
 ```
 
-See other examples in [async_example.ipynb](async_examples.ipynb) and [test_endpoints.py](test/test_endpoints.py)
+See other examples in [async_example.ipynb](async_example.ipynb) and [test_endpoint.py](test/test_endpoint.py)
 
 Refer to the documentation for a full specification of endpoint inputs and outputs and model fields.
-
-```python
-
-import igvf_async_client
-from igvf_async_client.rest import ApiException
-from pprint import pprint
-
-# Defining the host is optional and defaults to https://api.data.igvf.org
-# See configuration.py for a list of all supported configuration parameters.
-configuration = igvf_async_client.Configuration(
-    host = "https://api.data.igvf.org"
-)
-
-# The client must configure the authentication and authorization parameters
-# in accordance with the API server security policy.
-# Examples for each auth method are provided below, use the example that
-# satisfies your auth use case.
-
-# Configure HTTP basic authorization: basicAuth
-configuration = igvf_async_client.Configuration(
-    access_key = os.environ["IGVF_ACCESS_KEY"],
-    secret_access_key = os.environ["IGVF_SECRET_ACCESS_KEY"]
-)
-
-
-# Enter a context with an instance of the API client
-async with igvf_async_client.ApiClient(configuration) as api_client:
-    # Create an instance of the API class
-    api_instance = igvf_async_client.AsyncIgvfApi(api_client)
-    query = 'variant flowfish jurkat' # str | Query string for searching. (optional)
-    limit = igvf_async_client.Limit() # Limit | Maximum number of results to return. Default is 25. Use 'all' for all results. (optional)
-    sort = ['-file_size'] # List[str] | Fields to sort results by. Prefix with '-' for descending order. Can be repeated for multiple sort fields. Does not work with limit=all. (optional)
-    id = ['id_example'] # List[str] | Filter by @id (optional)
-    access_key_id = ['access_key_id_example'] # List[str] | Filter by access_key_id (optional)
-    aliases = ['aliases_example'] # List[str] | Filter by aliases (optional)
-    creation_timestamp = ['creation_timestamp_example'] # List[str] | Filter by creation_timestamp (optional)
-    description = ['description_example'] # List[str] | Filter by description (optional)
-    notes = ['notes_example'] # List[str] | Filter by notes (optional)
-    secret_access_key_hash = ['secret_access_key_hash_example'] # List[str] | Filter by secret_access_key_hash (optional)
-    status = ['status_example'] # List[str] | Filter by status (optional)
-    submitted_by_id = ['submitted_by_id_example'] # List[str] | Filter by submitted_by.@id (optional)
-    submitted_by_title = ['submitted_by_title_example'] # List[str] | Filter by submitted_by.title (optional)
-    submitter_comment = ['submitter_comment_example'] # List[str] | Filter by submitter_comment (optional)
-    summary = ['summary_example'] # List[str] | Filter by summary (optional)
-    user = ['user_example'] # List[str] | Filter by user (optional)
-    uuid = ['uuid_example'] # List[str] | Filter by uuid (optional)
-
-    try:
-        # List items in the AccessKey collection.
-        api_response = await api_instance.access_keys(query=query, limit=limit, sort=sort, id=id, access_key_id=access_key_id, aliases=aliases, creation_timestamp=creation_timestamp, description=description, notes=notes, secret_access_key_hash=secret_access_key_hash, status=status, submitted_by_id=submitted_by_id, submitted_by_title=submitted_by_title, submitter_comment=submitter_comment, summary=summary, user=user, uuid=uuid)
-        print("The response of AsyncIgvfApi->access_keys:\n")
-        pprint(api_response)
-    except ApiException as e:
-        print("Exception when calling AsyncIgvfApi->access_keys: %s\n" % e)
-
-```
 
 ## Documentation for API Endpoints
 
