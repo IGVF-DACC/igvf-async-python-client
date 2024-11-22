@@ -17,25 +17,23 @@ import pprint
 import re  # noqa: F401
 import json
 
-from pydantic import BaseModel, ConfigDict, Field, StrictStr, field_validator
-from typing import Any, ClassVar, Dict, List
+from pydantic import BaseModel, ConfigDict, Field, StrictInt, StrictStr
+from typing import Any, ClassVar, Dict, List, Optional
+from igvf_async_client.models.index_file import IndexFile
+from igvf_async_client.models.search_facet import SearchFacet
 from typing import Optional, Set
 from typing_extensions import Self
 
-class RelatedDonor(BaseModel):
+class IndexFileResults(BaseModel):
     """
-    Familial relation of this donor.
+    IndexFileResults
     """ # noqa: E501
-    donor: StrictStr = Field(description="An identifier for the related donor.")
-    relationship_type: StrictStr = Field(description="A descriptive term for the related donor’s relationship to this donor.")
-    __properties: ClassVar[List[str]] = ["donor", "relationship_type"]
-
-    @field_validator('relationship_type')
-    def relationship_type_validate_enum(cls, value):
-        """Validates the enum"""
-        if value not in set(['aunt', 'child', 'first cousin once removed', 'first cousin', 'fraternal twin', 'grandparent', 'half-sibling', 'niece', 'nephew', 'parent', 'paternal twin', 'sibling', 'second cousin', 'uncle']):
-            raise ValueError("must be one of enum values ('aunt', 'child', 'first cousin once removed', 'first cousin', 'fraternal twin', 'grandparent', 'half-sibling', 'niece', 'nephew', 'parent', 'paternal twin', 'sibling', 'second cousin', 'uncle')")
-        return value
+    graph: Optional[List[IndexFile]] = Field(default=None, alias="@graph")
+    id: Optional[StrictStr] = Field(default=None, alias="@id")
+    type: Optional[List[StrictStr]] = Field(default=None, alias="@type")
+    total: Optional[StrictInt] = None
+    facets: Optional[List[SearchFacet]] = None
+    __properties: ClassVar[List[str]] = ["@graph", "@id", "@type", "total", "facets"]
 
     model_config = ConfigDict(
         populate_by_name=True,
@@ -55,7 +53,7 @@ class RelatedDonor(BaseModel):
 
     @classmethod
     def from_json(cls, json_str: str) -> Optional[Self]:
-        """Create an instance of RelatedDonor from a JSON string"""
+        """Create an instance of IndexFileResults from a JSON string"""
         return cls.from_dict(json.loads(json_str))
 
     def to_dict(self) -> Dict[str, Any]:
@@ -76,11 +74,25 @@ class RelatedDonor(BaseModel):
             exclude=excluded_fields,
             exclude_none=True,
         )
+        # override the default output from pydantic by calling `to_dict()` of each item in graph (list)
+        _items = []
+        if self.graph:
+            for _item in self.graph:
+                if _item:
+                    _items.append(_item.to_dict())
+            _dict['@graph'] = _items
+        # override the default output from pydantic by calling `to_dict()` of each item in facets (list)
+        _items = []
+        if self.facets:
+            for _item in self.facets:
+                if _item:
+                    _items.append(_item.to_dict())
+            _dict['facets'] = _items
         return _dict
 
     @classmethod
     def from_dict(cls, obj: Optional[Dict[str, Any]]) -> Optional[Self]:
-        """Create an instance of RelatedDonor from a dict"""
+        """Create an instance of IndexFileResults from a dict"""
         if obj is None:
             return None
 
@@ -88,8 +100,11 @@ class RelatedDonor(BaseModel):
             return cls.model_validate(obj)
 
         _obj = cls.model_validate({
-            "donor": obj.get("donor"),
-            "relationship_type": obj.get("relationship_type")
+            "@graph": [IndexFile.from_dict(_item) for _item in obj["@graph"]] if obj.get("@graph") is not None else None,
+            "@id": obj.get("@id"),
+            "@type": obj.get("@type"),
+            "total": obj.get("total"),
+            "facets": [SearchFacet.from_dict(_item) for _item in obj["facets"]] if obj.get("facets") is not None else None
         })
         return _obj
 
